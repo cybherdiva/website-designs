@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact · Bloom Salon</title>
+  <meta name="description" content="A salon site with services, hours, and booking.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Outfit:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../site.css">
+</head>
+<body style="--primary:#8B2942;--ink:#1A1214;--paper:#FFF8F6;--muted:#6E5A5E;--radius:999px;--display:"Outfit", sans-serif;--body:"Outfit", sans-serif;background:#FFF8F6;color:#1A1214">
+  <header class="glass">
+    <div class="wrap bar">
+      <a class="logo" href="index.html">Bloom</a>
+      <nav class="desk"><a class="" href="index.html">Home</a><a class="" href="services.html">Services</a><a class="on" href="contact.html">Contact</a><a class="btn small" href="contact.html">Book now</a></nav>
+      <button class="burger" type="button" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+    <div class="mobile wrap"><a class="" href="index.html">Home</a><a class="" href="services.html">Services</a><a class="on" href="contact.html">Contact</a></div>
+  </header>
+  <main><section class="pad" id="contact"><div class="wrap split">
+        <div><h2>The salon</h2><p class="body">Street parking on the side streets. We confirm every booking by text.</p>
+          <ul class="facts"><li>hello@bloomsalon.example</li><li>+1 (323) 555-0177</li><li>1418 N Highland, Los Angeles</li></ul>
+        </div>
+        <form class="card pad-form" data-note>
+          <input required name="name" placeholder="Your name">
+          <input required type="email" name="email" placeholder="Email">
+          <textarea required name="note" placeholder="How can we help?"></textarea>
+          <button class="btn" type="submit">Send</button>
+          <p class="thanks" hidden>Message noted. Wire this form to your own inbox when you host it.</p>
+        </form>
+      </div></section></main>
+  <footer><div class="wrap foot"><p>Bloom Salon — color, cut, quiet.</p><p class="own">Yours to edit. Plain HTML.</p></div></footer>
+  <p class="bag" hidden></p>
+  <script src="../../site.js"></script>
+</body>
+</html>
